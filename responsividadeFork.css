@@ -1,0 +1,57 @@
+/* Estilos para telas pequenas (até 600px de largura) */
+@media screen and (max-width: 600px) {
+
+    .cabelo,
+    .lblPortfolios {
+        display: none;
+    }
+
+    body {
+        background: rgba(245, 245, 245, 0.596);
+    }
+
+    #card1 {
+
+        padding: 50px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .sessao1>.imgEquipa,
+    .sessao2>.imgEquipa,
+    .sessao3>.imgEquipa,
+    .sessao4>.imgEquipa,
+    .sessao5>.imgEquipa {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+        border: solid 1px rgba(0, 0, 0, 0.219);
+    }
+
+    .sessao1>div,
+    .sessao2>div,
+    .sessao3>div,
+    .sessao4>div,
+    .sessao5>div {
+        width: 100%;
+        text-align: left;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .sessao1,
+    .sessao2,
+    .sessao3,
+    .sessao4,
+    .sessao5 {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+        background: rgba(245, 245, 245, 0.596);
+
+    }
+}
+
+/* Estilos para telas médias (de 601px a 1024px de largura) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
+
+/* Estilos para telas grandes (acima de 1024px de largura) */
+@media screen and (min-width: 1025px) {}
